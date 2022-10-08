@@ -1,4 +1,4 @@
-name: CI-GO-APP
+name: CI-GO-APP-Argo
 env:
   IMAGE_NAME:  golang_app
 on: 
