@@ -1,0 +1,9 @@
+container:
+  name: go-app
+  replicaCount: 1
+  label: go-app
+  image: netdevopsaslan/golang_app
+  tag: ""
+  targetPort: 8080
+  type: NodePort
+
