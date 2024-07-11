@@ -1,5 +1,12 @@
+name: Call-Reusable-Workflow
+
+on:
+  push:
+
+
 jobs:
-  shared_job:
+  call-workflow-build:
+    if: github.ref == 'refs/heads/master'
     # Импортирование повторно используемого workflow из вашего репозитория и ветки
     uses: aslan-ali/Shared-Pipelines/.github/workflows/blank.yml@main
     with:
